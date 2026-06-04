@@ -23,8 +23,8 @@ public class LatihanMandiriArrayList {
         
         //2. Buat ArrayList<Integer> berisi 5 angka. Tampilkan nilai terbesar dengan menelusuri seluruh elemen.
         ArrayList<Integer> nilai = new ArrayList<>();
-        nilai.add(70); nilai.add(95); nilai.add(60);
-        nilai.add(88); nilai.add(75);
+        nilai.add(75); nilai.add(98); nilai.add(59);
+        nilai.add(68); nilai.add(82);
         int max = nilai.get(0);
         for (int n : nilai) {
         if (n > max) max = n;
