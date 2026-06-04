@@ -12,6 +12,8 @@ public class LatihanMandiriArray {
         System.out.println("Tertinggi: " + max);
         System.out.println("Terendah : " + min);
         
+        System.out.println("=================================================");
+        
         //2. Buat array String berisi 5 nama hari. Cetak hanya nama hari yang memiliki lebih dari 5 huruf (gunakan .length() pada String).
         String[] hari = {"Senin", "Selasa", "Rabu", "Kamis", "Jumat"};
         for (String h : hari) {
@@ -19,6 +21,8 @@ public class LatihanMandiriArray {
                 System.out.println(h);
             }
         }
+        
+        System.out.println("=================================================");
         
         //3. Diberikan int[] angka = {4, 8, 15, 16, 23, 42}; hitung dan tampilkan berapa banyak angka genap di dalamnya.
         int[] angka = {4, 8, 15, 16, 23, 42};
