@@ -36,5 +36,10 @@ public class MainTugas {
         kelas.tambahMahasiswa(new Mahasiswa("Fajar", "2301006", 78.0));
         System.out.println("Setelah menambah 1 mahasiswa baru:");
         kelas.tampilkanSemua();
+        System.out.println();
+        
+        System.out.println("Rata-rata nilai : " + kelas.hitungRataRata());
+        System.out.println("Jumlah lulus    : " + kelas.jumlahLulus());
+        System.out.println();
     }
 }
