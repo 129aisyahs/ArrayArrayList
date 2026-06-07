@@ -2,6 +2,7 @@ package bagian3.perpustakaan;
 
 public class Buku {
     // Atribut: data yang dimiliki setiap buku
+    // 2. Tambahkan atribut tahunTerbit (int) pada class Buku, lengkapi constructor dan getter-nya, lalu tampilkan tahun terbit di dalam method info.
     private String judul;
     private String penulis;
     private boolean dipinjam;

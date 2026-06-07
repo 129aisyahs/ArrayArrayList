@@ -47,6 +47,7 @@ public class Perpustakaan {
         return jumlah;
     }
     
+    //3. Tambahkan method cariPenulis(String penulis) pada class Perpustakaan yang menampilkan semua buku karya penulis tersebut.
     public void cariPenulis(String penulis) {
         System.out.println("Buku karya " + penulis + ":");
         boolean ditemukan = false;
@@ -61,6 +62,7 @@ public class Perpustakaan {
         }
     }
     
+    //1. Tambahkan method kembalikanBuku(String judul) pada class Perpustakaan yang mengubah status sebuah buku menjadi tidak dipinjam. Uji dari class main.
     public void kembalikanBuku(String judul) {
         for (Buku b : koleksi) {
             if (b.getJudul().equals(judul)) {

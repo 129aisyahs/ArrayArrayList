@@ -15,6 +15,7 @@ public class MainPerpustakaan {
     System.out.println();
     perpus.pinjamBuku("Bumi Manusia");
     perpus.pinjamBuku("Bumi Manusia"); // coba pinjam kedua kali
+    perpus.kembalikanBuku("Bumi Manusia");
     perpus.cariPenulis("Pramoedya"); 
     
     System.out.println();
